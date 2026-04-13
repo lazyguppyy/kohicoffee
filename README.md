@@ -44,6 +44,11 @@ A web development project of making a coffee menu.
 - <body> element includes everything that will be shown inside the main browser window.
 - elements: the HTML characters inside the angled brackets
   - each element are usually composed of two tags: an opening tag and a closing tag
+- Bullet Point Styles (pg 333; Jon Duckett)
+  - With CSS, the 'list-style-type' property allows you to control the shapr or style of a bullet point (marker)
+    - unordered list: none, disc, circle, square
+    - ordered list: decimal, decimal-leading-zero, lower-alpha, upper-alpha, lower-roman, upper-roman
+    - syntax: list-style-type: type;
 
 
 ##### resources:
