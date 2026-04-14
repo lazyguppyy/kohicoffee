@@ -49,6 +49,8 @@ A web development project of making a coffee menu.
     - unordered list: none, disc, circle, square
     - ordered list: decimal, decimal-leading-zero, lower-alpha, upper-alpha, lower-roman, upper-roman
     - syntax: list-style-type: type;
+- <div> element allow for common elements to be grouped together in one block-level box
+- <meta> contains information about the web page. It tells search engine about the page, who created it, and whether or not it is time sensitive
 
 
 ##### resources:
