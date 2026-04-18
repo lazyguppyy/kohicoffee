@@ -14,13 +14,13 @@ A web development project of making a coffee menu.
 # notes:
 - menu items:
   - (5) coffee items
-  - (4) tea items
-  - (6) food items
-  - different sized cups in oz.
+  - (5) tea items
+  - (5) food items
+  - different sized cups and their prices
 
 - theme:
   - cozy/home-y
-  - browns and honey yellow
+  - reddish brown theme
   - simple and readable font
 
 - layout:
@@ -51,6 +51,7 @@ A web development project of making a coffee menu.
     - syntax: list-style-type: type;
 - <div> element allow for common elements to be grouped together in one block-level box
 - <meta> contains information about the web page. It tells search engine about the page, who created it, and whether or not it is time sensitive
+- <img> syntax: <img src="url" alt="alternatetext">
 
 #### good coding practices:
 - always use <!DOCTYPE html> at the very start
@@ -70,9 +71,12 @@ A web development project of making a coffee menu.
 - book: Hello Web Design by Tracy Osborn (2021)
 
 #### validation log:
-- 4/15 (4)
+- 4/15 (4) -- old design
   - warning: consider adding a 'lang' attribute to the html start tag to declare the language of the document
   - the character encoding was not declared. proceeding using windows-1252?
   - trailing slash on void elements has no effect and interacts badly with unquoted attribute values (line 6, column 5; to line 6, column 55)
   - the heading h3 follows the heading h1, skipping 1 heading level
+
+- 4.17 -- new design
+  - followed appropriate order for heading semantics
   
