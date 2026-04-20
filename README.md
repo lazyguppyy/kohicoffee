@@ -52,6 +52,17 @@ A web development project of making a coffee menu.
 - <div> element allow for common elements to be grouped together in one block-level box
 - <meta> contains information about the web page. It tells search engine about the page, who created it, and whether or not it is time sensitive
 - <img> syntax: <img src="url" alt="alternatetext">
+- CSS Grid vs Flexbox
+  - CSS Grid
+    - 2D layout system
+    - controls rows AND columns at the same time
+    - best for page layouts, card grids (like a menu), and dashboards
+  - Flexbox
+    - 1D layout system
+    - controls either row OR column at a time
+    - best for aligning items inside a container, navbars, "name + price" rows
+- For layouts, HTML defines the structure while CSS defines the layout behaviour. In order to create a grid-like or flexbox layout, there needs to be a parent/child structure or a container (parent) and element (children) component.
+- containers show the entire grid/flex parent area whereas the items/card show each element's area inside the layout system or parent area. This shows the allocated space.
 
 #### good coding practices:
 - always use <!DOCTYPE html> at the very start
@@ -63,12 +74,21 @@ A web development project of making a coffee menu.
 - use heading elements wisely. not every title is an h1 header.
 - always use the right html elements
 - always validate your code
+- adding a debugging tool while coding CSS helps in seeing faulty layouts
+  outline: 2px, dashed/solid, color; debug outlines help show element boundaries, spacing, and nesting issues
+  preference: blue container; red elements
+- mental model for designing a website:
+  - (1) HTML: define each component
+  - (2) CSS: layout system (CSS Grid/Flex) -- how are these sections arranged?
+  - (3) CSS: (Flex) -- how do the items sit inside each section?
+
 
 
 ##### resources:
 - website: w3schools.com/html
 - book: HTML & CSS: design and build websites by Jon Duckett (2011)
 - book: Hello Web Design by Tracy Osborn (2021)
+- Chat GBT
 
 #### validation log:
 - 4/15 (4) -- old design
