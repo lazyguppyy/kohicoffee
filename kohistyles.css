@@ -1,0 +1,71 @@
+/* grid component */
+.menu-container {
+  display: grid; /* type of display */
+  grid-template-columns: repeat(3, 1fr); /* displays 3 columns with 1 equal fraction of the remaining space in the grid */
+  grid-template-rows: 220px 380px;
+  justify-content: center;
+  
+
+
+  gap: 20px 20px; /* space between cards */
+  
+  width: 100%;
+  min-height: 100vh;
+  
+
+  padding: 10px;
+  box-sizing: border-box;
+
+
+  outline: 2px dashed blue; /* debugging tool */
+}
+
+/* menu item cards */
+.menu-item {
+  background-color: #FFFFFF;
+  padding: 10px;
+  
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+
+
+  outline: 2px dashed red; /* debugging tool */
+}
+
+/* logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+
+.menu-item.pasteries div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+/* background */
+body {
+  background-color: #FAF9F0;
+}
+
+/* header & footer */
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
