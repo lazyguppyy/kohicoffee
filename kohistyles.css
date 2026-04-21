@@ -1,16 +1,16 @@
 /* grid component */
 .menu-container {
   display: grid; /* type of display */
-  grid-template-columns: repeat(3, 1fr); /* displays 3 columns with 1 equal fraction of the remaining space in the grid */
+  grid-template-columns: repeat(3, 650px); /* displays 3 columns with 1 equal fraction of the remaining space in the grid */
   grid-template-rows: 220px 380px;
   justify-content: center;
   
 
 
-  gap: 20px 20px; /* space between cards */
+  gap: 40px 8px; /* space between cards */
   
   width: 100%;
-  min-height: 100vh;
+  min-height: 30vh;
   
 
   padding: 10px;
@@ -43,9 +43,11 @@
 }
 
 .logo img {
-  max-width: 250px;
+  max-width: 500px;
   width: 100%;
   height: auto;
+  position: relative;
+  top: -200px;
 }
 
 .menu-item.pasteries div {
@@ -60,12 +62,34 @@ body {
   background-color: #FAF9F0;
 }
 
+.notice {
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+.notice-label {
+  
+  color:#97353D;
+  font-weight: bold;
+}
+
+.notice p {
+  
+  color: #A57548;
+  outline: 2px dashed red;
+}
+
 /* header & footer */
 header {
   text-align: center;
+  font-size: 100px;
+  color: #97353D;
+  word-spacing: 1350px;
 }
 
 footer {
   text-align: center;
+  font-size: 50px;
+  color: #97353D;
 }
 
